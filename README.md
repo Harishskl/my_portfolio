@@ -1,15 +1,18 @@
-# Mechanical Engineering Portfolio
+# Harish V - Mechanical Engineering Portfolio
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS to showcase mechanical engineering projects, skills, and achievements.
+A modern, responsive portfolio website showcasing mechanical engineering projects, skills, and achievements.
+
+🌐 **Live Site:** [https://harishskl.github.io](https://harishskl.github.io)
 
 ## ✨ Features
 
 - **Responsive Design** - Optimized for all devices (desktop, tablet, mobile)
 - **Modern UI/UX** - Clean, professional interface with smooth animations
-- **Project Showcase** - Highlight your engineering projects with detailed descriptions
+- **Project Showcase** - Highlight engineering projects with detailed descriptions
 - **Skills Section** - Display technical competencies and tools
-- **Contact Form** - Easy way for recruiters and collaborators to reach you
-- **Resume Download** - Direct download link for your resume
+- **Education & Timeline** - Academic journey and achievements
+- **Contact Section** - Easy way for recruiters to reach out
+- **Resume Download** - Direct download link for resume
 - **Fast Performance** - Built with Vite for lightning-fast load times
 - **SEO Optimized** - Proper meta tags and structure for search engines
 
@@ -23,11 +26,12 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - **State Management:** TanStack Query
 - **Build Tool:** Vite
 - **Icons:** Lucide React
+- **Deployment:** GitHub Pages with GitHub Actions
 
 ## 📋 Prerequisites
 
 - Node.js (v18 or higher)
-- npm or yarn package manager
+- npm package manager
 
 ## 🚀 Getting Started
 
@@ -36,8 +40,8 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/mechanical-engineering-portfolio.git
-cd mechanical-engineering-portfolio
+git clone https://github.com/Harishskl/Harishskl.github.io.git
+cd Harishskl.github.io
 ```
 
 2. Install dependencies:
@@ -61,79 +65,30 @@ npm run dev
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Run ESLint for code quality
 
-## 🎨 Customization
-
-### Personal Information
-
-Update the following files with your information:
-
-1. **src/pages/Index.tsx** - Main portfolio content
-2. **public/resume.pdf** - Replace with your actual resume
-3. **index.html** - Update meta tags and title
-4. **package.json** - Update author and repository fields
-
-### Styling
-
-- **Colors & Theme:** Modify `src/index.css` and `tailwind.config.ts`
-- **Components:** Customize components in `src/components/`
-
-### Adding Projects
-
-Add your projects in the projects section of your main page component. Include:
-
-- Project title and description
-- Technologies used
-- Images/screenshots
-- Links to live demos or repositories
-
 ## 🌐 Deployment
 
-### Deploy to Vercel
+This portfolio is configured for automatic deployment to GitHub Pages. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
 
-1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com)
-3. Deploy with one click
+### Automatic Deployment
 
-### Deploy to Netlify
+Every push to the `main` branch triggers an automatic deployment via GitHub Actions.
 
-1. Push your code to GitHub
-2. Connect your repository on [Netlify](https://netlify.com)
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-
-### Deploy to GitHub Pages
-
-1. Install gh-pages:
+### Manual Deployment
 
 ```bash
-npm install --save-dev gh-pages
+git add .
+git commit -m "Your commit message"
+git push
 ```
 
-2. Add to package.json scripts:
-
-```json
-"deploy": "vite build && gh-pages -d dist"
-```
-
-3. Deploy:
-
-```bash
-npm run deploy
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+The site will be live at https://harishskl.github.io in 2-3 minutes.
 
 ## 📧 Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Harish V - [harihari1443@gmail.com](mailto:harihari1443@gmail.com)
 
-Project Link: [https://github.com/yourusername/mechanical-engineering-portfolio](https://github.com/yourusername/mechanical-engineering-portfolio)
+- LinkedIn: [harish-v-31a332291](https://www.linkedin.com/in/harish-v-31a332291)
+- GitHub: [@Harishskl](https://github.com/Harishskl)
 
 ---
 
