@@ -6,23 +6,22 @@ const educationData = [
     degree: "Bachelor of Engineering in Mechanical Engineering",
     location: "Coimbatore, Tamil Nadu",
     period: "Aug 2023 - May 2027 (Expected)",
-    cgpa: "CGPA: 8/10",
+    cgpa: "CGPA: 8.03/10",
     coursework: [
       "Heat Transfer",
       "Thermodynamics",
       "Fluid Mechanics",
       "Thermal Sciences",
       "Manufacturing Processes",
-      "CAD/CAM",
-      "Metal Fabrication",
-      "Quality Control",
       "Lean and Agile Manufacturing",
       "Total Quality Management",
+      "Frontend Web Development",
     ],
     activities: [
       "Thermal Sciences Specialization",
       "Manufacturing & Design focus",
       "Manufacturing & Quality Management",
+      "Vibe Coding",
     ],
   },
   {
@@ -30,8 +29,8 @@ const educationData = [
     degree: "Higher Secondary Education",
     location: "Perambalur, Tamil Nadu",
     period: "2009 - 2023",
-    cgpa: null,
-    coursework: [],
+    cgpa: "Pass: 90%",
+    coursework: ["Maths", "Physics", "Chemistry", "Biology"],
     activities: [],
   },
 ];
@@ -64,7 +63,7 @@ const Education = () => {
                     <GraduationCap className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-foreground">{edu.institution}</h3>
+                    <h3 className="text-lg md:text-xl font-semibold text-foreground">{edu.institution}</h3>
                     <p className="text-muted-foreground">{edu.degree}</p>
                     <p className="text-sm text-muted-foreground">{edu.location}</p>
                     {edu.cgpa && <p className="text-sm text-primary font-medium mt-1">{edu.cgpa}</p>}

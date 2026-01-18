@@ -33,7 +33,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
-              <a href="mailto:harihari1443@gmail.com">Contact</a>
+              <a href="/resume.pdf" download>Resume</a>
             </Button>
           </div>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90 w-fit" asChild>
-                <a href="mailto:harihari1443@gmail.com">Contact</a>
+                <a href="/resume.pdf" download>Resume</a>
               </Button>
             </div>
           </div>

@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
           {/* Left content */}
           <div className="flex-1 text-center lg:text-left">
             {/* Badges */}
@@ -56,8 +56,12 @@ const Hero = () => {
               <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/30 to-primary/5 animate-pulse-glow" />
                 <div className="absolute inset-2 rounded-full bg-card border-2 border-border overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-                    <div className="text-6xl md:text-7xl font-bold gradient-text">HV</div>
+                  <div className="w-full h-full flex items-center justify-center overflow-hidden">
+                    <img 
+                      src="/favicon.ico" 
+                      alt="Harish V Profile" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>

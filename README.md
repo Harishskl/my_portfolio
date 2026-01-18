@@ -1,73 +1,140 @@
-# Welcome to your Lovable project
+# Mechanical Engineering Portfolio
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS to showcase mechanical engineering projects, skills, and achievements.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## ✨ Features
 
-## How can I edit this code?
+- **Responsive Design** - Optimized for all devices (desktop, tablet, mobile)
+- **Modern UI/UX** - Clean, professional interface with smooth animations
+- **Project Showcase** - Highlight your engineering projects with detailed descriptions
+- **Skills Section** - Display technical competencies and tools
+- **Contact Form** - Easy way for recruiters and collaborators to reach you
+- **Resume Download** - Direct download link for your resume
+- **Fast Performance** - Built with Vite for lightning-fast load times
+- **SEO Optimized** - Proper meta tags and structure for search engines
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend Framework:** React 18
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui + Radix UI
+- **Routing:** React Router v6
+- **State Management:** TanStack Query
+- **Build Tool:** Vite
+- **Icons:** Lucide React
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📋 Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
 
-Follow these steps:
+```bash
+git clone https://github.com/yourusername/mechanical-engineering-portfolio.git
+cd mechanical-engineering-portfolio
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Start the development server:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Customization
 
-## What technologies are used for this project?
+### Personal Information
 
-This project is built with:
+Update the following files with your information:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **src/pages/Index.tsx** - Main portfolio content
+2. **public/resume.pdf** - Replace with your actual resume
+3. **index.html** - Update meta tags and title
+4. **package.json** - Update author and repository fields
 
-## How can I deploy this project?
+### Styling
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- **Colors & Theme:** Modify `src/index.css` and `tailwind.config.ts`
+- **Components:** Customize components in `src/components/`
 
-## Can I connect a custom domain to my Lovable project?
+### Adding Projects
 
-Yes, you can!
+Add your projects in the projects section of your main page component. Include:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Project title and description
+- Technologies used
+- Images/screenshots
+- Links to live demos or repositories
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🌐 Deployment
+
+### Deploy to Vercel
+
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Deploy with one click
+
+### Deploy to Netlify
+
+1. Push your code to GitHub
+2. Connect your repository on [Netlify](https://netlify.com)
+3. Build command: `npm run build`
+4. Publish directory: `dist`
+
+### Deploy to GitHub Pages
+
+1. Install gh-pages:
+
+```bash
+npm install --save-dev gh-pages
+```
+
+2. Add to package.json scripts:
+
+```json
+"deploy": "vite build && gh-pages -d dist"
+```
+
+3. Deploy:
+
+```bash
+npm run deploy
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## 📧 Contact
+
+Your Name - [your.email@example.com](mailto:your.email@example.com)
+
+Project Link: [https://github.com/yourusername/mechanical-engineering-portfolio](https://github.com/yourusername/mechanical-engineering-portfolio)
+
+---
+
+**Built with ❤️ for showcasing engineering excellence**
